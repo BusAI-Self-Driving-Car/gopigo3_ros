@@ -4,7 +4,11 @@
   It requires rplidar.launch.
  -->
 <launch>
-  <!-- <include file="$(find rplidar_ros)/launch/rplidar.launch" /> -->
+  <!-- Bring up robot and enable wheel odometer publishing "/odom"-->
+  <include file="$(find gopigo3_node)/launch/gopigo3.launch" />
 
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find gopigo3_ros)/rviz/slam_gmapping.rviz" />
+  <!-- Bring up rplidar and publish "/scan" -->
+  <include file="$(find rplidar_ros)/launch/rplidar.launch" />
+
+  <include file="$(find rplidar_slam)/launch/gmapping.launch" />
 </launch>
