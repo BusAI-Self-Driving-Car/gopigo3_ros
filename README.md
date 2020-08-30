@@ -8,11 +8,12 @@ ROS Implementation on Gopigo3 Robot.
 
 ## Dependencies
 
-### 1. Bring up
+### 1. Basic
 
 - [GoPiGo3 Raspberry Pi Firmware](https://github.com/DexterInd/GoPiGo3.git)
 - [gopigo3_node](https://github.com/ros-gopigo/gopigo3_node.git)
-- [](https://github.com/ros-gopigo/startup.git)(XBox controller and Webcam stream)
+- [XBox controller and Webcam](https://github.com/ros-gopigo/startup.git)
+- [Robot description and Simulator](https://github.com/ros-gopigo3/gopigo3.git)
 
 ### 2. Lidar and SLAM Applications
 
@@ -52,7 +53,10 @@ roslaunch gopigo3_ros gopigo3_slam_rviz.launch
 
 - [How to run ROS navigation stack on GoPiGo3](https://github.com/iot-magi/gopigo3_navigation)
 - [Turning Gopigo3 into an AWS IoT device](https://github.com/fold88/gopigo3)
+- [Use Google Cloud Vision On the Raspberry Pi and GoPiGo](https://www.dexterindustries.com/howto/use-google-cloud-vision-on-the-raspberry-pi/)
 
 ## Reference
 
+- [ROS Wiki: Robotsgopigo3](http://wiki.ros.org/Robots/gopigo3)
+- [Browser Streaming Robot With The GoPiGo3](https://www.dexterindustries.com/GoPiGo/projects/python-examples-for-the-raspberry-pi/browser-video-streaming-robot-gopigo3/)
 - [Starting with ROS on the GoPiGo3 and the Raspberry Pi](https://medium.com/robotics-with-ros/starting-with-ros-on-the-gopigo3-and-the-raspberry-pi-af62104d401e)
