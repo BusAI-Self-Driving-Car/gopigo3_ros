@@ -3,10 +3,11 @@ ROS Implementation on Gopigo3 Robot.
 
 # Dependencies
 
-- gopigo3_node
-- rplidar_ros
+- [GoPiGo3 Raspberry Pi Firmware](https://github.com/DexterInd/GoPiGo3.git)
+- [gopigo3_node](https://github.com/ros-gopigo/gopigo3_node.git)
+- [rplidar_ros](https://github.com/Slamtec/rplidar_ros.git)
 - openslam_gmapping
-- slam_gmapping
+- [slam_gmapping](https://github.com/ros-perception/slam_gmapping.git)
 - rplidar_slam
 
 # Instruction
