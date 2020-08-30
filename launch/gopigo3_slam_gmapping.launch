@@ -5,7 +5,7 @@
  -->
 <launch>
   <!-- Bring up robot and enable wheel odometer publishing "/odom"-->
-  <include file="$(find gopigo3_node)/launch/gopigo3.launch" />
+  <!-- <include file="$(find gopigo3_node)/launch/gopigo3.launch" /> -->
 
   <!-- Bring up rplidar and publish "/scan" -->
   <include file="$(find rplidar_ros)/launch/rplidar.launch" />
